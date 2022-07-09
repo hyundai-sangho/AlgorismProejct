@@ -1,11 +1,11 @@
-function solution(n) {
-  let answer = 0;
+function solution(받은숫자) {
+  let 답 = 0;
 
-  for (let i = 1; i <= n; i++) {
-    answer = answer + i;
+  for (let i = 1; i <= 받은숫자; i++) {
+    답 = 답 + i;
   }
 
-  return answer;
+  return 답;
 }
 
 console.log(solution(6));
