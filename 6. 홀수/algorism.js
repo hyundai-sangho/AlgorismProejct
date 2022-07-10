@@ -1,4 +1,4 @@
-function solution(숫자배열) {
+function 문제(숫자배열) {
   /* 내가 푼 방법
   let 답;
   let 합 = 0;
@@ -35,4 +35,4 @@ function solution(숫자배열) {
 }
 
 let 숫자배열 = [12, 77, 38, 41, 53, 92, 85];
-console.log(solution(숫자배열));
+console.log(문제(숫자배열));

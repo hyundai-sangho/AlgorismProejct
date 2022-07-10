@@ -1,14 +1,14 @@
-function solution(a, b, c) {
+function 문제(값1, 값2, 값3) {
   let 답 = "예스";
   let 최댓값;
-  let 총합 = a + b + c;
+  let 총합 = 값1 + 값2 + 값3;
 
-  if (a > b) 최댓값 = a;
-  else 최댓값 = b;
-  if (c > 최댓값) 최댓값 = c;
+  if (값1 > 값2) 최댓값 = 값1;
+  else 최댓값 = 값2;
+  if (값3 > 최댓값) 최댓값 = 값3;
   if (총합 - 최댓값 <= 최댓값) 답 = "노";
 
   return 답;
 }
 
-console.log(solution(6, 7, 14));
+console.log(문제(6, 7, 14));

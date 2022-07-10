@@ -1,4 +1,4 @@
-function solution(숫자배열) {
+function 문제(숫자배열) {
   /* 
   // 푸는 방법 => 1번
   // 최소값 지정 후 배열을 for of로 돌려서 배열의 값 하나하나와
@@ -26,4 +26,4 @@ function solution(숫자배열) {
 }
 
 let 숫자배열 = [5, 7, 1, 3, 2, 9, 11];
-console.log(solution(숫자배열));
+console.log(문제(숫자배열));
