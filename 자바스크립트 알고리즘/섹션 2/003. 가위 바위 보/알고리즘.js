@@ -59,4 +59,6 @@ function solution(a, b) {
 
 let a = [2, 3, 3, 1, 3];
 let b = [1, 1, 2, 2, 3];
+console.time("선생님이 푼 알고리즘 구동 시간");
 console.log(solution(a, b));
+console.timeEnd("선생님이 푼 알고리즘 구동 시간");
