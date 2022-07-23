@@ -71,9 +71,9 @@ let 문자열배열묶음 = [
   [19, 13, 30, 13, 19],
 ];
 
-console.time("돌아가는 시간");
+console.time("내가 돌아가는 시간");
 console.log(문제(문자열배열묶음));
-console.timeEnd("돌아가는 시간");
+console.timeEnd("내가 돌아가는 시간");
 
 // 선생님이 푼 방법
 function solution(arr) {
@@ -112,4 +112,6 @@ let arr = [
   [19, 13, 30, 13, 19],
 ];
 
+console.time("선생님이 돌아가는 시간");
 console.log(solution(arr));
+console.timeEnd("선생님이 돌아가는 시간");
